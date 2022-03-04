@@ -1,21 +1,21 @@
-import React from 'react'
+import React from "react";
+import Layout from "../components/layout";
 
-type Props = {}
+type Props = {};
 
 const Projects = (props: Props) => {
   return (
-    
-    <>
-    <div>Projects</div>
-    <div>
+    <Layout>
+      <div>Projects</div>
+      <div>
         <ul>
-            <li>Here&apos;s one</li>
-            <li>Here&apos;s anotehr</li>
-            <li>One more</li>
+          <li>Here&apos;s one</li>
+          <li>Here&apos;s anotehr</li>
+          <li>One more</li>
         </ul>
-    </div>
-    </>
-  )
-}
+      </div>
+    </Layout>
+  );
+};
 
-export default Projects
+export default Projects;

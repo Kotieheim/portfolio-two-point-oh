@@ -1,13 +1,13 @@
-import React from 'react'
+import Layout from "../components/layout";
 
-type Props = {}
+type Props = {};
 
 const About = (props: Props) => {
   return (
-    <div>
+    <Layout>
       <h1>Yeh</h1>
-    </div>
-  )
-}
+    </Layout>
+  );
+};
 
-export default About
+export default About;
