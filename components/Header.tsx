@@ -7,6 +7,7 @@ type Props = {};
 const Header = (props: Props) => {
   return (
     <div className={styles.navbar}>
+      <div className={styles.logo}>DH</div>
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
       <Link href="/projects">Projects</Link>
