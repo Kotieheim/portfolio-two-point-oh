@@ -1,5 +1,7 @@
+
 html,
 body {
+  background-color: #272838;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -14,3 +16,10 @@ a {
 * {
   box-sizing: border-box;
 }
+/* 
+Midnight Green Eagle: 0B3C49
+Byzantium: 731963
+White: FFFDFD
+Light Gray: CBD2D0
+Titanium Yellow: F0E100
+*/
