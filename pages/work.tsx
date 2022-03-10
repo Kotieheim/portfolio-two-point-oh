@@ -3,10 +3,10 @@ import Layout from "../components/Layout";
 
 type Props = {};
 
-const Projects = (props: Props) => {
+const Work = (props: Props) => {
   return (
     <Layout>
-      <div>Projects</div>
+      <div>Work</div>
       <div>
         <ul>
           <li>Here&apos;s one</li>
@@ -18,4 +18,4 @@ const Projects = (props: Props) => {
   );
 };
 
-export default Projects;
+export default Work;

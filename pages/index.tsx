@@ -1,7 +1,5 @@
 import Head from "next/head";
-import type { ReactElement } from "react";
 import Layout from "../components/Layout";
-import Header from "../components/header";
 
 export default function Page() {
   return (

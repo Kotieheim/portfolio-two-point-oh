@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 
 type Props = {};
 
-const About = (props: Props) => {
+const Contact = (props: Props) => {
   return (
     <Layout>
       <h1>Yeh</h1>
@@ -10,4 +10,4 @@ const About = (props: Props) => {
   );
 };
 
-export default About;
+export default Contact;
