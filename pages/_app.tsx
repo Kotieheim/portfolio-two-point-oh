@@ -1,6 +1,7 @@
-import { AppContext, AppInitialProps, AppLayoutProps } from 'next/app';
-import type { NextComponentType } from 'next';
-import { ReactNode } from 'react';
+import { AppContext, AppInitialProps, AppLayoutProps } from "next/app";
+import type { NextComponentType } from "next";
+import { ReactNode } from "react";
+import "../styles/globals.css";
 
 const MyApp: NextComponentType<AppContext, AppInitialProps, AppLayoutProps> = ({
   Component,
