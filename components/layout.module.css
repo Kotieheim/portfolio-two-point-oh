@@ -1,9 +1,20 @@
 .main {
-    display: flex;
-    height: calc(100vh - 64px);
-    background-color: white;
+  color: #F9F8F8;
+  display: flex;
+  height: calc(100vh - 64px);
+  flex-direction: column;
   }
   
   .main > section {
     padding: 32px;
+    height: 100%;
   }
+
+
+  /* 
+Midnight Green Eagle: 0B3C49
+Byzantium: 731963
+White: FFFDFD
+Light Gray: CBD2D0
+Titanium Yellow: F0E100
+*/

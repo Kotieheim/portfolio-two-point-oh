@@ -1,8 +1,29 @@
 .navbar {
-    background-color: yellow;
+    color: #F9F8F8;
+    justify-content: space-between;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
-    justify-content: space-around;
+    padding: 10px;
 }
-.logo{
+.navbar_main {
+}
+.navbar_main__link {
+    padding: 0 5px;
+}
+
+.navbar_logo {
     
 }
+.navbar_logo__link:hover {
+    cursor: pointer;
+}
+.navbar_socials {
+    
+}
+/* 
+272838 - black
+F3DE8A - yellow
+EB9486 - salmon
+7E7F9A - gray
+F9F8F8 - white
+*/
