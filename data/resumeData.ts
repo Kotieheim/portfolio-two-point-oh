@@ -1,4 +1,4 @@
-let resumeData = {
+export const resumeData = {
   imagebaseurl: "https://kotieheim.github.io/",
   name: "Dakota Heim",
   role: "Front End Developer",
