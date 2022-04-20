@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Layout from "../components/Layout";
+import HomePage from "../components/HomePage";
 
 export default function Page() {
   return (
@@ -8,7 +9,7 @@ export default function Page() {
         <Head>
           <title>Next.js Portfolio?</title>
         </Head>
-        <h1>is this work</h1>
+        <HomePage />
       </Layout>
     </>
   );
