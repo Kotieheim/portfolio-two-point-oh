@@ -13,7 +13,7 @@ const HomePage = (props: Props) => {
     const imageIndex = Math.floor(Math.random() * myImages.length);
     return myImages[imageIndex];
   };
-  const { name, aboutMe, address, homeImage, role, roleDescription } = homePage;
+  const { name, aboutMe, role } = homePage;
   return (
     <div>
       <h1>{name}</h1>
