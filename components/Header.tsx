@@ -1,15 +1,8 @@
-import { useRouter } from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./Header.module.css";
 import logoImage from "../public/logoipsum-logo-37.svg";
-import {
-  fab,
-  faTwitterSquare,
-  faFacebook,
-  faLinkedin,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
+import { socialLinks } from "../data/portfolioData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 type Props = {};
@@ -38,19 +31,12 @@ const Header = (props: Props) => {
         </Link>
       </div>
       <div className={styles.navbar_socials}>
-        <Link passHref={true} href="/">
-          <a>
-            <FontAwesomeIcon icon={faGithub} />
+        {socialLinks.map((social) => (
+          <a rel="noreferrer" target="_blank" key={social.id} href={social.url}>
+            <FontAwesomeIcon icon={social.faIcon} />
           </a>
-        </Link>
-        <Link href="/">
-          <a>
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-        </Link>
+        ))}
       </div>
-
-      {/* <Link href="/Other/Test">Test?</Link> */}
     </nav>
   );
 };
