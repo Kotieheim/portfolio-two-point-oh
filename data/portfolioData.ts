@@ -1,33 +1,23 @@
-export const resumeData = {
-  imagebaseurl: "https://kotieheim.github.io/",
+import { v4 as uuidv4 } from "uuid";
+import {
+  fab,
+  faTwitterSquare,
+  faFacebook,
+  faLinkedin,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+
+export const homePage = {
   name: "Dakota Heim",
   role: "Front End Developer",
   homeImage: "../public/logoipsum-logo-12.svg",
-  linkedinId: "linkedin-id",
-  skypeid: "skype-id",
   roleDescription:
     " I'm an incredibly passionate developer and pride myself on being a quick learner. I enjoy learning new technologies and I'm never afraid to challenge myself!",
-  socialLinks: [
-    {
-      name: "linkedin",
-      url: "https://www.linkedin.com/in/dakotaheim/",
-      className: "fa fa-linkedin",
-    },
-    {
-      name: "github",
-      url: "https://github.com/Kotieheim",
-      className: "fa fa-github",
-    },
-    {
-      name: "twitter",
-      url: "https://twitter.com/HeimDakota",
-      className: "fa fa-twitter",
-    },
-  ],
   aboutMe:
     "I'm Dakota, but I go by Kotie (pronounced \"cody\"), and I've been working professionally as a front end developer for about 2 years now. I was born and raised in Utah and met my beautiful wife, going on about seven years ago and have never looked back! We have two dogs who keep us plenty busy and who we absolutely adore. I'm always looking to learn and challenge myself and keep life fun and exciting!",
   address: "Utah",
-  website: "https://kotieheim.github.io/",
+};
+export const resume = {
   skills: {
     primary: [
       "JavaScript",
@@ -91,7 +81,7 @@ export const resumeData = {
   ],
   education: [
     {
-      id: 1,
+      id: uuidv4(),
       UniversityName: "Thinkful.Bloc.io",
       specialization:
         "Full-Stack Web Development Program / Engineering Immersion",
@@ -101,7 +91,7 @@ export const resumeData = {
         "Learned industry best practices and practical software development standards with a focus on HTML5, CSS3, JavaScript, jQuery, Node.js, React, Redux, and algorithms & data structures. Created and deployed mobile-first applications while learning new languages and frameworks by collaborating several hours every week with a senior web developer.",
     },
     {
-      id: 2,
+      id: uuidv4(),
       UniversityName: "Utah Valley University",
       specialization: "Computer Science",
       MonthOfPassing: "Jan",
@@ -111,5 +101,49 @@ export const resumeData = {
     },
   ],
 };
-
-export default resumeData;
+export const projects = [
+  {
+    id: uuidv4(),
+    name: "Test Project one",
+    image: "https://picsum.photos/200",
+    aboutProject: "This is test project one",
+    url: "#",
+  },
+  {
+    id: uuidv4(),
+    name: "Test Project two",
+    image: "https://picsum.photos/200",
+    aboutProject: "This is test project two",
+    url: "#",
+  },
+  {
+    id: uuidv4,
+    name: "Test Project three",
+    image: "https://picsum.photos/200",
+    aboutProject: "This is test project three",
+    url: "#",
+  },
+];
+export const socialLinks = [
+  {
+    id: uuidv4(),
+    name: "linkedin",
+    url: "https://www.linkedin.com/in/dakotaheim/",
+    className: "fa fa-linkedin",
+    faIcon: faLinkedin,
+  },
+  {
+    id: uuidv4(),
+    name: "github",
+    url: "https://github.com/Kotieheim",
+    className: "fa fa-github",
+    faIcon: faGithub,
+  },
+  {
+    id: uuidv4(),
+    name: "twitter",
+    url: "https://twitter.com/HeimDakota",
+    className: "fa fa-twitter",
+    faIcon: faTwitterSquare,
+  },
+];
